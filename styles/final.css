@@ -1,0 +1,221 @@
+body {
+  font-family: Avenir, sans-serif;
+  background-color: #CEECF5;
+
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+}
+
+i {
+  font-style: italic;
+}
+
+.facebookcolor {
+  color: #3b5998;
+}
+
+.facebookcolor:hover {
+  color: blue;
+}
+
+.twittercolor {
+  color: #4099FF;
+}
+
+.twittercolor:hover {
+  color: blue;
+}
+
+.linkedincolor {
+  color: #4875B4;
+}
+
+.linkedincolor:hover {
+  color: blue;
+}
+
+
+.font-bold {
+font-weight: bold;
+line-height: 20px;
+}
+
+.footerbg {
+/*  background-image: url(http://www.pamperedpetz.net/wp-content/uploads/2015/09/Puppy1.jpg);
+*/  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: avenir, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.footercolor:hover {
+  color: lightblue;
+}
+
+.footercolor {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.margin-fix {
+  margin-bottom: 0px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+/*  background-color: #f5f5f5;
+  background-color: black;
+  color: white;
+*/}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  background-image: url(https://57.media.tumblr.com/db4c0a6dc37f20002d22e56b133e2485/tumblr_o479f8FDQi1tl8u0ko1_500.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  max-width: 135px;
+  height: 125px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.picture1 {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  float: left;
+}
+
+.padding-right-fix {
+  padding-right: 0px;
+}
+
+.padding-left-fix {
+  padding-left: 0px;
+}
+
+h1 {
+  padding-top: 10px;
+  color: red;
+  font-family: Didot;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: left;
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: none;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: left;
+}
+
+h3 {
+  padding-top: 10px;
+  font-family: Avenir, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h4 {
+  padding-top: 10px;
+  font-family: Avenir, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+/*  text-align: center;
+*/}
+
+
+ul.nav li a, ul.nav li a:visited {
+    color: black !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: blue !important;
+}
+
+ul.nav li.active a {
+    color: red !important;
+}
+
+
+nav {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 40px;
+  padding: 0;
+  color: black;
+}
+
+li {
+  margin-right: 3px;
+  color: black;
+  font-family: Avenir; sans-serif;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px ;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
+  background-color: lightblue;
+}
+
+li a:active {
+  color: yellow;
+}
+
+img {
+	margin-right: 10px;
+	margin-bottom: 6px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+
+a:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 990px) {
+    .padding-left-fix {
+        padding-left: 30px;
+    }
+}
+
+
+
